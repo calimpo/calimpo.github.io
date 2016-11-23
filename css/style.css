@@ -315,7 +315,7 @@ h5{
 	font-size: 25px;
 	text-align: center;
 }
-header{
+head{
 	width: 1000px;
 	height: 120 px;
 	background: rgba(255, 255, 255, 10,70);
@@ -349,6 +349,7 @@ section{
 	margin-top: 7px;
 	border-radius: 10px 0px 0px 0px;
 }
+
 aside{
 	width: 280px;
 	background: white;
@@ -376,19 +377,27 @@ p{
 	line-height: 24px;
 	padding: 10px;
 	text-align: justify;
+	
 }
+
 /*CLASES*/
 .ancho_menu_home{width: 900px;}
 .ancho_menu_paginas{width: 970px;}
-.menu:link{color: white; text-decoration: none;}
-.menu:visited{color: white; text-decoration: none;}
-.menu:hover{
-	color: #000;
+.menu:link{
+	color: #FFF;
 	text-decoration: none;
-	text-shadow: 0 0 13px white;
+}
+.menu:visited{
+	color: #FFF;
+	text-decoration: none;
+}
+.menu:hover{
+	color: #FF6600;
+	text-decoration: none;
+	/*text-shadow: 0 0 13px white;*/
 }
 .menu:active{
-	color: #006680;
+	color: #003F5E;
 	text-decoration: none;
 }
 
